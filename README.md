@@ -5,6 +5,8 @@
 
 A rotating 3D hologram ASCII Christmas tree for your terminal — pink fireworks, hearts, aurora, snow and all.
 
+**윈도우 처음이라면 → [그림 설명서](https://cuzurmyhabit.github.io/xmas-tree/)**
+
 ## 바로 실행하기
 
 **macOS / Linux**
@@ -30,6 +32,10 @@ curl.exe -sL https://raw.githubusercontent.com/cuzurmyhabit/xmas-tree/main/xmas_
 ---
 
 ## 🪟 윈도우 왕초보 가이드
+
+### 👉 [그림으로 보는 설명서 열기 (복사 버튼 있음)](https://cuzurmyhabit.github.io/xmas-tree/)
+
+위 링크를 누르면 보기 좋게 꾸며진 설명서 페이지가 열려요. 아래는 같은 내용의 글 버전이에요.
 
 까만 명령 창에 명령어 한 줄을 붙여넣으면 빙글빙글 도는 트리가 나와요. 아래 순서대로 따라만 하면 돼요.
 
