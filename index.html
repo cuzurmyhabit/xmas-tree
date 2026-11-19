@@ -252,6 +252,26 @@ details p { margin: 0; }
     </div>
   </section>
 
+  <section style="display:flex;flex-direction:column;gap:16px" aria-labelledby="bonus">
+    <h2 id="bonus">보너스: 사람 트리도 보기</h2>
+    <p style="margin:0">사진 속 사람이 별, 전구, 오너먼트로 꾸며진 트리가 되고, 말풍선으로 “옹옹.” 하고 말해요. 배경에는 폭죽이 터지고 MERRY CHRISTMAS 글자가 춤춰요. 파이썬은 이미 깔았으니 명령어만 바꿔서 붙여넣으면 돼요.</p>
+    <div class="console">
+      <div class="console-head">
+        <span class="console-label">명령 프롬프트 (cmd)</span>
+        <button class="copy" type="button" id="copy-portrait-cmd" data-target="portrait-cmd-text">복사</button>
+      </div>
+      <pre><span class="prompt">C:\Users\me&gt; </span><span id="portrait-cmd-text">curl -sL https://raw.githubusercontent.com/cuzurmyhabit/xmas-tree/main/portrait/portrait.py | python -</span></pre>
+    </div>
+    <div class="console">
+      <div class="console-head">
+        <span class="console-label">PowerShell (PS로 시작하는 창)</span>
+        <button class="copy" type="button" id="copy-portrait-ps" data-target="portrait-ps-text">복사</button>
+      </div>
+      <pre><span class="prompt">PS C:\Users\me&gt; </span><span id="portrait-ps-text">curl.exe -sL https://raw.githubusercontent.com/cuzurmyhabit/xmas-tree/main/portrait/portrait.py | python -</span></pre>
+    </div>
+    <p class="note" style="margin:0">끄는 건 똑같이 <kbd>Ctrl</kbd>+<kbd>C</kbd>. 화면이 끊기면 명령어 끝에 한 칸 띄고 <code>--no-fireworks</code>를 붙여 보세요.</p>
+  </section>
+
   <section style="display:flex;flex-direction:column;gap:16px" aria-labelledby="faq">
     <h2 id="faq">안 될 때</h2>
     <div class="faq">
