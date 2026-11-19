@@ -31,6 +31,42 @@ curl.exe -sL https://raw.githubusercontent.com/cuzurmyhabit/xmas-tree/main/xmas_
 
 ---
 
+## 🎅 보너스: 사람 트리 (ASCII 포트레이트)
+
+사진 속 사람을 컬러 ASCII 아트로 그리고, 머리 위 별·전구·오너먼트로 트리처럼 꾸민 버전이에요.
+말풍선으로 "옹옹." 하고 말하고, 선글라스·디스코 같은 개그 장면, 배경 폭죽, 춤추는 MERRY CHRISTMAS 글자가 나와요.
+
+**macOS / Linux**
+
+```bash
+curl -sL https://raw.githubusercontent.com/cuzurmyhabit/xmas-tree/main/portrait/portrait.py | python3 -
+```
+
+**Windows cmd**
+
+```bash
+curl -sL https://raw.githubusercontent.com/cuzurmyhabit/xmas-tree/main/portrait/portrait.py | python -
+```
+
+**Windows PowerShell**
+
+```bash
+curl.exe -sL https://raw.githubusercontent.com/cuzurmyhabit/xmas-tree/main/portrait/portrait.py | python -
+```
+
+옵션은 맨 끝에 붙이면 돼요. 예: `... | python3 - --say "배고파 옹|졸려 옹..."`
+
+| 옵션 | 설명 |
+| --- | --- |
+| `--say "옹옹.\|배고파 옹"` | 말풍선 대사 바꾸기 (`\|`로 구분) |
+| `--mode photo` | 색 모드 고정 (photo, neon, rainbow, matrix, thermal, holo) |
+| `--no-tree` | 트리 장식 끄기 |
+| `--no-fireworks` | 폭죽 끄기 (화면이 끊길 때) |
+| `--no-gags` | 개그 장면 끄기 |
+| `--fps 15` | 프레임 낮추기 (끊길 때) |
+
+---
+
 ## 🪟 윈도우 왕초보 가이드
 
 ### 👉 [그림으로 보는 설명서 열기 (복사 버튼 있음)](https://cuzurmyhabit.github.io/xmas-tree/)
